@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<main>
+	<div class="container">
+		<div>
+            <h2>HOME</h2>
+            <div class="screen">
+            	<h1 id="home-score">0</h1>
+            </div>
+            <div class ="btn-container">
+                <button class ="btn" onclick="home1()">+1</button>
+                <button class ="btn" onclick="home2()">+2</button>
+                <button class ="btn" onclick="home3()">+3</button>     
+            </div>
+            <button class = "btn reset" onclick ="resetHome()">RESET</button>
+        </div>
+        <div>
+            <h2>GUEST</h2>
+            <div class="screen">
+            	<h1 id="guest-score">0</h1>
+            </div>
+            <div class ="btn-container">
+                        <button class ="btn" onclick="guest1()">+1</button>
+                        <button class ="btn" onclick="guest2()">+2</button>
+                        <button class ="btn" onclick="guest3()">+3</button>    
+            </div> 
+            <button class = "btn reset" onclick ="resetGuest()">RESET</button>
+        </div>
+	</div>
+	</main>
+	<footer class="copyright">
+            <p>
+                @ 2022 MohanRaju
+            </p>
+        </footer>
+       <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
